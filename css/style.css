@@ -739,7 +739,7 @@ td.active {
 	line-height: 35px;
 }
 
-#learn-more-news-button {
+.learn-more-news-button {
 	position: absolute;
 	height: 78px;
 	width: 304px;
@@ -748,7 +748,7 @@ td.active {
 	border: 1px solid #fff;
 }
 
-#learn-more-news-button a {
+.learn-more-news-button a {
 	margin-left: 70px;
 	font-family: "GothamProBold";
 	font-size: 18px;
@@ -760,7 +760,7 @@ td.active {
 	line-height: 75px;
 }
 
-#learn-more-news-button a i {
+.learn-more-news-button a i {
 	margin-left: 53px;
 }
 
