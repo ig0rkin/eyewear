@@ -520,7 +520,7 @@ body {
 
 #second-table {
 	width: 100%;
-	height: 540px;
+	height: 622px;
 	border-collapse: collapse;
 }
 
@@ -566,38 +566,37 @@ body {
 	margin-top: 10px;
 }
 
-td.active {
+td {
 	position: relative;
 }
 
-.border-active {
-	z-index: 2;
+td:hover .border-active {
+	border: 20px solid rgba(155, 123, 89, 0.2);
 	position: absolute;
 	top: 100px;
 	left: 50px;
 	right: 50px;
 	bottom: 173px;
-	border: 20px solid #9b7b59;
-	opacity: 0.2;
 }
-.active a {
+
+td:hover .border-active a {
 	position: absolute;
 	font-family: "GothamProMedium";
 	font-size: 36px;
 	text-decoration: none;
 	color: #9b7b59;
-	right: 155px;
-	bottom: 225px;
+	right: 80px;
+	bottom: 40px;
 }
 
-.active h3 {
+td:hover h3 {
 	margin-top: 86px;
 }
 
 .more {
 	position: relative;
 	display: block;
-	height: 168px;
+	height: 130px;
 	width: 100%;
 }
 
