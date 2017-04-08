@@ -1017,3 +1017,12 @@ td.active {
 #news-letter {
 	bottom: -215px;
 }
+
+.vertical-line {
+	width: 30px;
+    height: 28px;
+    position: absolute;
+    right: 11px;
+    top: -50px;
+    border-right: 1px solid #bcbcbc;
+}
